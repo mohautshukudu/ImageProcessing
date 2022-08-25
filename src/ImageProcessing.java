@@ -30,7 +30,7 @@ public class ImageProcessing {
         int[][] shrunk = shrinkVertically(imageData);
         twoDToImage(shrunk, "./shrunkImage.jpg");
 
-        //Inverting the image
+        //Inverting an image
         int[][] inverted = invertImage(imageData);
         twoDToImage(inverted, "./invertedImage.jpg");
 
